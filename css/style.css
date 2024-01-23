@@ -1,0 +1,341 @@
+/* Media Cuery */
+@media only screen and (min-width: 600px){
+    .title h1 {
+        font-size: 2.5rem;
+    }
+    .text-box h2 {
+        font-size: 2.5rem;
+    }
+    .box p {
+        font-size: 1.7rem;
+    }
+}
+@media only screen and (min-width: 760px) {
+    .title h1 {
+        font-size: 3rem;
+        }
+}   
+    /*global*/
+*{   
+    font-family: 'Racing Sans One', sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+    /*Header*/
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+}
+    
+    /*seccion inicio*/
+
+.inicio {
+    height: 320px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: repeat(4,150px);
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 5px;
+}
+
+.box p {
+    background-color: rgb(29, 29, 29);
+}
+
+.box {
+    display: flex;
+    width: 100%;
+    height: 145px;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-size: 1rem;
+    background-color: rgb(29, 29, 29);
+}
+
+    /*seccion ¿Quienes somos?*/
+
+.quienes-somos {
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.quienes-somos img {
+    width: 100%;
+    float: left;
+    border-radius: 15px;
+    margin: 0;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+}
+.text-box h2 {
+    display: flex;
+    margin: 10px;   
+}
+
+.text-box h3 {
+    display: flex;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.text-box p {
+    text-align: justify;
+    padding: 0 2%;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+    /** Seccion Servicios **/
+
+#sec-serv h2 {
+    display: flex;
+    font-size: 3rem;
+    padding: 3%;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+}
+
+#sec-serv p {
+    text-align: justify;
+    padding: 0 2%;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.box2 {
+    padding: 2%;
+    align-content: center;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 > * {
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border: 1px solid #555454;
+    background-position: center;
+    background-size: cover;
+    border-radius: 37px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    color: #ffffff;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-size: 2rem;
+}
+
+
+#motores {
+    background-image: url(/img/img-index/motores.jpeg);
+}
+
+#tapas-cil {
+    background-image: url(/img/img-index/tapas-cel.jpeg);
+}
+
+#desarrollos {
+    background-image: url(/img/img-index/desarollos.jpeg);
+}
+
+    /** Seccion Repuestos**/
+
+#sec-rep h2 {
+    display: flex;
+    font-size: 3rem;
+    padding: 3%;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+}
+#sec-rep p {
+    text-align: justify;
+    padding: 0 2%;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+.box3 {
+    padding: 2%;
+    align-content: center;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box3 > * {
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 0px;
+    border: 1px solid #555454;
+    background-position: center;
+    background-size: cover;
+    border-radius: 37px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    color: #ffffff;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-size: 2rem;
+}
+
+#rmotor {
+    background-image: url(/img/img-index/repuestos-motor.jpeg);
+}
+#rtapa {
+    background-image: url(/img/img-index/repuestos-tapa.jpeg);
+}
+#rgeneral {
+    background-image: url(/img/img-index/repuestos-gral.jpeg);
+}
+
+    /**Seccion contacto**/
+
+.contacto h2 {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.contacto {
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box4 {
+
+    padding: 2%;
+    text-align: center;
+}
+
+.box4 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+#info ul {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 4;
+    vertical-align: middle;
+}
+
+#info ul,
+#ubicacion img {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.redes {
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    background-color: aliceblue;
+}
+    /**footer**/
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 1%;
+}
+/* Html serv*/
+.box-img img {
+    padding: 0;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.box-img {
+    columns: 4 300px;
+    padding: 0;
+    margin: 0;
+}
+
+.col {
+    list-style: circle;
+}
+
+.serv {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 3%;
+}
+
+.serv h2{
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    padding: 3%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.serv span {
+    color: #555454;
+}
+
+.serv h3{
+font-size: 2rem;
+padding: 3%;
+}
+.serv p {
+    padding: 0 3%;
+    padding-bottom: 1%;
+}
+.serv h4 {
+    display: flex;
+    font-size: 3rem;
+}
+.serv ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+/*html rep*/
+
+.box-img-rep {
+       columns: 3 187px;
+}
+.box-img-rep img {
+
+    padding: 0;
+    margin-top: 15px;
+    width: 100%;
+    height: 159px;
+}
+
