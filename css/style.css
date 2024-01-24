@@ -309,8 +309,8 @@ footer p {
 }
 
 .serv h3{
-font-size: 2rem;
-padding: 3%;
+    font-size: 2rem;
+    padding: 3%;
 }
 .serv p {
     padding: 0 3%;
@@ -329,7 +329,7 @@ padding: 3%;
 /*html rep*/
 
 .box-img-rep {
-       columns: 3 187px;
+    columns: 3 187px;
 }
 .box-img-rep img {
 
