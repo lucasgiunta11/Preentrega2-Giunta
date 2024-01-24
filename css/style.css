@@ -150,15 +150,15 @@ header {
 
 
 #motores {
-    background-image: url(/img/img-index/motores.jpeg);
+    background-image: url(.//img/img-index/motores.jpeg);
 }
 
 #tapas-cil {
-    background-image: url(/img/img-index/tapas-cel.jpeg);
+    background-image: url(.//img/img-index/tapas-cel.jpeg);
 }
 
 #desarrollos {
-    background-image: url(/img/img-index/desarollos.jpeg);
+    background-image: url(.//img/img-index/desarollos.jpeg);
 }
 
     /** Seccion Repuestos**/
